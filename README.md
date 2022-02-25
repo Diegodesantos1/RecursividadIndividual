@@ -12,7 +12,7 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/Recursividad
 
 ## Ejercicio 1: Búsqueda por dicotomía en una tabla ordenada
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/1?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/3)
 
 El código empleado para resolverlo es el siguiente:
 
@@ -40,7 +40,7 @@ dicotomia(numero_medio)
 
 ## Ejercicio 2: Análisis de una cadena de caracteres
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/2?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/2)
 
 El código empleado para resolverlo es el siguiente:
 ```python
@@ -64,9 +64,9 @@ def comprobar_palindromo(dato):
       print(f"La palabra o número {dato} no es un palíndromo")
 comprobar_palindromo(dato)
 ```
-## Ejercicio 3: Búsqueda por dicotomía en una tabla ordenada
+## Ejercicio 3: La bandera de Dijkstra
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/3?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
