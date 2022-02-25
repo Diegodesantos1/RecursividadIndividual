@@ -4,7 +4,13 @@ def ordenar_bandera():
   rojo=[]
   verde=[]
   azul =[]
-
+  color=bandera.pop(0)
+  if color =="R":
+    rojo.append(color)
+  elif color =="G":
+    verde.append(color)
+  elif color =="B":
+    azul.append(color)
 ordenar_bandera()
     
     
