@@ -1,9 +1,9 @@
 bandera =["R","B","B","R","G","B","B","R","B","R","R","G","R","R","B","G","G"]
 print(bandera)
+rojo=[]
+verde=[]
+azul =[]
 def ordenar_bandera(bandera):
-  rojo=[]
-  verde=[]
-  azul =[]
   color=bandera.pop(0)
   if color =="R":
     rojo.append(color)
