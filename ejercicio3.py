@@ -11,6 +11,8 @@ def ordenar_bandera():
     verde.append(color)
   elif color =="B":
     azul.append(color)
+  else:
+    print(bandera_ordenada)
 ordenar_bandera()
     
     
