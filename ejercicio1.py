@@ -1,25 +1,18 @@
 import sys
 
-lista_palabra=["Alien","Eduardo","Cabeza"]
+lista_palabra=["Alien","Eduardo","Cabeza","Rubén"]
 print(lista_palabra)
-print("Establece el intervalo inferior de búsqueda")
-intervalo_inf=int(input())
-print("Establece el intervalo superior de búsqueda")
-intervalo_sup=int(input())
-if intervalo_inf > intervalo_sup or intervalo_inf == 0:
-  print("No se puede realizar la búsqueda")
-  sys.exit
-else:
-  print("Qué palabra quieres buscar?")
-  palabra_buscar=str(input())
-  numero_medio= intervalo_sup//intervalo_inf
-  def dicotomia():
-    numero_medio =-1
-    palabra_tabla =lista_palabra.index("palabra_buscar")
-    if palabra_tabla == palabra_buscar:
-      print(f"La palabra es {palabra_buscar}")
-    else:
-      dicotomia()
+intervalo_inf=0
+intervalo_sup=len(lista_palabra)
+numero_medio=(intervalo_sup+intervalo_inf)// 2
+print(numero_medio)
+print("Qué palabra quieres buscar?")
+palabra_buscar=str(input())
+def dicotomia():
+  numero_tabla =lista_palabra.index(palabra_buscar)
+  if numero_tabla == numero_medio:
+    print(f"La palabra es {palabra_buscar}")
+
 
 dicotomia()
     
