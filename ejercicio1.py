@@ -1,4 +1,3 @@
-import sys
 lista_palabra=["Alien","Eduardo","Cabeza","Rubén","Javier","Atlas","Río", "Servir", "Abrir","Camión", "Ordenador", "Mandaloriano", "Conflicto", "Móvil", "Estambul","Wifi", "Nft", "Real Madrid","Dicotomía","Gafas", "Pesado", "Bicicleta","Reloj", "Abrigo", "Criptoestafa", "Emblemático","Inanición","Comunicación","Ifema","Spa","Auditorio","Campo", "Bernabéu", "Iluminati", "Copiar", "Libre", "Como", "El", "Mar"]
 print(lista_palabra)
 cota_sup=len(lista_palabra)
