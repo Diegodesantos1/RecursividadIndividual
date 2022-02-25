@@ -1,4 +1,4 @@
-print("Que palabra, frase o número quieres comprobar para ver si es un palíndromo?")
+print("¿Que palabra, frase o número quieres comprobar para ver si es un palíndromo?")
 dato=input()
 
 i,j = "áéíóúñÁÉÍÓÚÑ" , "aeiounAEIOUN"
@@ -15,6 +15,6 @@ def comprobar_palindromo(dato):
     if dato[0] == dato [-1]:
       comprobar_palindromo(dato[1:-1])
     else:
-      print(f"{dato} no es un palíndromo")
+      print(f"La palabra o número {dato} no es un palíndromo")
 comprobar_palindromo(dato)
 
