@@ -12,7 +12,8 @@ def dicotomia():
   numero_tabla =lista_palabra.index(palabra_buscar)
   if numero_tabla == numero_medio:
     print(f"La palabra es {palabra_buscar}")
-
+  elif numero_tabla < numero_medio:
+    
 
 dicotomia()
     
