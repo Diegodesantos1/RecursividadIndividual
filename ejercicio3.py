@@ -19,10 +19,9 @@ def ordenar_bandera():
     azul.append(color)
     print(azul)
     ordenar_bandera()
-  print(bandera)
-  print(rojo)
-  print(verde)
-  print(azul)
+  else:
+    bandera_ordenada=(rojo + verde + azul)
+    print(bandera_ordenada)
 ordenar_bandera()
     
     
