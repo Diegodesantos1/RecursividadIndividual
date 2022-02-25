@@ -3,24 +3,24 @@ print(bandera)
 rojo=[]
 verde=[]
 azul =[]
-def ordenar_bandera(bandera):
+def ordenar_bandera():
   if len(bandera) > 0:
     color=bandera.pop(0)
     if color =="R":
       rojo.append(color)
-      ordenar_bandera(bandera)
+      ordenar_bandera()
     elif color =="G":
       verde.append(color)
-      ordenar_bandera(bandera)
+      ordenar_bandera()
     elif color =="B":
       azul.append(color)
-      ordenar_bandera(bandera)
+      ordenar_bandera()
     else:
       bandera_ordenada=rojo+verde+azul
-      print(bandera_ordenada)
+      print(f"La bandera ordenada es {bandera_ordenada}")
   else:
       bandera_ordenada=rojo+verde+azul
-      print(bandera_ordenada)
-ordenar_bandera(bandera)
+      print(f"La bandera ordenada es {bandera_ordenada}")
+ordenar_bandera()
     
     
