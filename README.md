@@ -40,7 +40,7 @@ dicotomia(numero_medio)
 
 ## Ejercicio 2: Análisis de una cadena de caracteres
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/2closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/2?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
