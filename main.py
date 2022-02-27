@@ -6,4 +6,4 @@ elif variable == 2:
 elif variable == 3:
     import ejercicio3
 else:
-    print("Introduzca valores entre 6 y 12.")
+    print("Introduzca valores entre 1 y 3.")
