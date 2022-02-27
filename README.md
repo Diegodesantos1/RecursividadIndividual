@@ -12,7 +12,7 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/Recursividad
 
 ## Ejercicio 1: Búsqueda por dicotomía en una tabla ordenada
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/1?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/3)
 
 El código empleado para resolverlo es el siguiente:
 
@@ -40,7 +40,7 @@ dicotomia(numero_medio)
 
 ## Ejercicio 2: Análisis de una cadena de caracteres
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/3?closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/2)
 
 El código empleado para resolverlo es el siguiente:
 ```python
@@ -63,4 +63,35 @@ def comprobar_palindromo(dato):
     else:
       print(f"La palabra o número {dato} no es un palíndromo")
 comprobar_palindromo(dato)
+```
+## Ejercicio 3: La bandera de Dijkstra
+
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/1)
+
+El código empleado para resolverlo es el siguiente:
+```python
+bandera =["R","B","B","R","G","B","B","R","B","R","R","G","R","R","B","G","G"]
+print(bandera)
+rojo=[]
+verde=[]
+azul =[]
+def ordenar_bandera(bandera):
+  if len(bandera) > 0:
+    color=bandera.pop(0)
+    if color =="R":
+      rojo.append(color)
+      ordenar_bandera(bandera)
+    elif color =="G":
+      verde.append(color)
+      ordenar_bandera(bandera)
+    elif color =="B":
+      azul.append(color)
+      ordenar_bandera(bandera)
+    else:
+      bandera_ordenada=rojo+verde+azul
+      print(f"La bandera ordenada es {bandera_ordenada}")
+  else:
+      bandera_ordenada=rojo+verde+azul
+      print(f"La bandera ordenada es {bandera_ordenada}")
+ordenar_bandera(bandera)
 ```
