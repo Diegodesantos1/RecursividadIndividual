@@ -66,7 +66,7 @@ comprobar_palindromo(dato)
 ```
 ## Ejercicio 3: La bandera de Dijkstra
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/1closed=1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/RecursividadIndividual/milestone/1?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
